@@ -1,0 +1,32 @@
+.flex{
+    display: flex;
+}
+
+
+
+@media(max-width:1280px) {
+    p {
+        color: rgb(255, 0, 153);
+    }
+    .flex{
+        flex-direction: row;
+    }
+}
+
+@media(max-width:768px) {
+    p {
+        color: rgb(55, 255, 0);
+    }
+    .flex{
+        flex-direction: row;
+    }
+}
+
+@media(max-width:400px) {
+    p {
+        color: blue;
+    }
+    .flex{
+        flex-direction: column;
+    }
+}
