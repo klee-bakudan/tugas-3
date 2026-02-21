@@ -129,3 +129,25 @@
     bottom: 100px;
     left: 100px;
 }
+
+.pp{
+    display: flex;
+    position: relative;
+    top: 340px;
+    right: -50px;
+}
+
+.np{
+    display: flex;
+    position: relative;
+    top: 310px;
+    right: -1150px;
+}
+
+@media (max-width:800px){
+    
+}
+
+@media (max-width:400px){
+
+}
